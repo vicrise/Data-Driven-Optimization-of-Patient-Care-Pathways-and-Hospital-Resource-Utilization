@@ -1,0 +1,501 @@
+Patient_ID,Date,Department,Condition_Type,Length_of_Stay,Age_Group,Discharge_Status
+1,2023-05-06,ICU,Stroke,7,61+,Home
+2,2023-12-13,Orthopedics,Fracture,9,13-24,Home
+3,2023-01-17,ICU,Alzheimer’s,11,61+,Transferred to Rehab
+4,2023-09-16,Pediatrics,Asthma,3,0-12,Home
+5,2023-11-29,General Medicine,Chronic Obstructive Pulmonary Disease,9,49-60,Transferred to Rehab
+6,2023-08-18,ICU,Alzheimer’s,16,61+,Transferred to Rehab
+7,2023-03-23,General Medicine,Heart Failure,12,49-60,Transferred to Rehab
+8,2023-03-21,Orthopedics,Fracture (Hip),12,61+,Home
+9,2023-07-14,Orthopedics,Sports Injury,3,13-24,Home
+10,2023-01-23,General Medicine,Pneumonia,5,0-12,Home
+11,2023-02-10,Orthopedics,Fracture (Hip),8,61+,Home
+12,2023-10-23,General Medicine,Heart Failure,12,49-60,Home
+13,2023-12-05,General Medicine,Viral Infections,2,13-24,Home
+14,2023-02-21,Orthopedics,Sports Injury,3,13-24,Home
+15,2023-03-25,General Medicine,Kidney Stones,6,37-48,Home
+16,2023-12-26,General Medicine,Gallstones,4,25-36,Home
+17,2023-10-01,ICU,Alzheimer’s,11,61+,Transferred to Rehab
+18,2023-07-14,ICU,Stroke,9,61+,Home
+19,2023-12-17,General Medicine,Viral Gastroenteritis,4,25-36,Home
+20,2023-06-11,General Medicine,Appendicitis,4,25-36,Home
+21,2023-10-18,General Medicine,Kidney Stones,3,37-48,Home
+22,2023-07-22,Orthopedics,Fracture (Hip),10,61+,Home
+23,2023-03-13,Orthopedics,Fracture (Hip),9,61+,Home
+24,2023-10-26,General Medicine,Viral Infections,4,13-24,Home
+25,2023-09-18,General Medicine,Kidney Stones,4,37-48,Home
+26,2023-03-20,General Medicine,Pneumonia,3,37-48,Home
+27,2023-07-17,ICU,Stroke,13,61+,Transferred to Rehab
+28,2023-10-11,General Medicine,Diabetes Complications,8,37-48,Home
+29,2023-12-16,Pediatrics,Minor Trauma,9,0-12,Home
+30,2023-02-27,General Medicine,Heart Failure,12,49-60,Home
+31,2023-01-02,General Medicine,Gallstones,4,25-36,Home
+32,2023-09-17,ICU,Alzheimer’s,14,61+,Transferred to Rehab
+33,2023-03-20,Pediatrics,Minor Trauma,6,0-12,Home
+34,2023-09-08,General Medicine,Appendicitis,3,25-36,Home
+35,2023-05-03,Pediatrics,Asthma,4,0-12,Home
+36,2023-09-06,Pediatrics,Asthma,2,0-12,Home
+37,2023-03-07,Pediatrics,Minor Trauma,10,0-12,Home
+38,2023-09-28,Orthopedics,Fracture (Hip),9,61+,Home
+39,2023-06-09,General Medicine,Heart Failure,7,49-60,Transferred to Rehab
+40,2023-08-13,General Medicine,Diabetes Complications,10,37-48,Home
+41,2023-04-26,General Medicine,Heart Failure,6,49-60,Transferred to Rehab
+42,2023-10-29,General Medicine,Pneumonia,3,0-12,Home
+43,2023-04-28,Orthopedics,Fracture,4,13-24,Home
+44,2023-09-21,Pediatrics,Asthma,4,0-12,Home
+45,2023-10-04,Orthopedics,Sports Injury,6,13-24,Home
+46,2023-08-31,General Medicine,Viral Infections,5,13-24,Home
+47,2023-12-04,General Medicine,Pneumonia,3,37-48,Home
+48,2023-08-28,General Medicine,Kidney Stones,6,37-48,Home
+49,2023-07-26,ICU,Stroke,8,61+,Transferred to Rehab
+50,2023-04-09,Orthopedics,Fracture (Hip),8,61+,Transferred to Rehab
+51,2023-08-05,General Medicine,Viral Infections,5,13-24,Home
+52,2023-02-08,Orthopedics,Sports Injury,6,13-24,Home
+53,2023-11-30,General Medicine,Diabetes Complications,5,37-48,Transferred to Rehab
+54,2023-03-27,General Medicine,Chronic Obstructive Pulmonary Disease,5,49-60,Transferred to Rehab
+55,2023-07-25,General Medicine,Kidney Stones,6,37-48,Home
+56,2023-07-19,Pediatrics,Asthma,5,0-12,Home
+57,2023-12-23,General Medicine,Gallstones,5,25-36,Home
+58,2023-03-21,ICU,Alzheimer’s,20,61+,Transferred to Rehab
+59,2023-10-24,Orthopedics,Sports Injury,4,13-24,Home
+60,2023-01-30,ICU,Alzheimer’s,10,61+,Transferred to Rehab
+61,2023-01-30,Pediatrics,Minor Trauma,7,0-12,Home
+62,2023-11-01,General Medicine,Chronic Obstructive Pulmonary Disease,6,49-60,Transferred to Rehab
+63,2023-07-26,Pediatrics,Minor Trauma,10,0-12,Home
+64,2023-11-14,Pediatrics,Minor Trauma,5,0-12,Home
+65,2023-05-14,General Medicine,Pneumonia,8,0-12,Home
+66,2023-05-16,General Medicine,Viral Infections,4,13-24,Home
+67,2023-08-23,General Medicine,Pneumonia,8,37-48,Home
+68,2023-11-15,General Medicine,Appendicitis,3,25-36,Home
+69,2023-09-17,General Medicine,Chronic Obstructive Pulmonary Disease,5,49-60,Transferred to Rehab
+70,2023-05-06,General Medicine,Appendicitis,5,25-36,Home
+71,2023-10-06,General Medicine,Gallstones,4,25-36,Home
+72,2023-12-06,Orthopedics,Fracture (Hip),7,61+,Home
+73,2023-02-24,Pediatrics,Asthma,4,0-12,Home
+74,2023-05-25,ICU,Alzheimer’s,12,61+,Transferred to Rehab
+75,2023-04-15,General Medicine,Chronic Obstructive Pulmonary Disease,10,49-60,Home
+76,2023-05-09,ICU,Alzheimer’s,14,61+,Transferred to Rehab
+77,2023-01-23,Pediatrics,Asthma,5,0-12,Home
+78,2023-03-24,General Medicine,Pneumonia,4,0-12,Home
+79,2023-02-27,Orthopedics,Fracture (Hip),13,61+,Transferred to Rehab
+80,2023-07-09,Pediatrics,Minor Trauma,5,0-12,Home
+81,2023-03-07,ICU,Stroke,9,49-60,Home
+82,2023-07-03,General Medicine,Pneumonia,5,0-12,Home
+83,2023-07-01,General Medicine,Viral Infections,3,13-24,Home
+84,2023-05-02,General Medicine,Heart Failure,10,49-60,Transferred to Rehab
+85,2023-04-02,Orthopedics,Fracture,7,13-24,Home
+86,2023-05-17,Orthopedics,Fracture (Hip),13,61+,Transferred to Rehab
+87,2023-01-20,General Medicine,Viral Infections,2,13-24,Home
+88,2023-06-29,General Medicine,Pneumonia,4,37-48,Home
+89,2023-12-04,General Medicine,Appendicitis,4,25-36,Home
+90,2023-02-05,Orthopedics,Sports Injury,5,13-24,Home
+91,2023-01-15,General Medicine,Gallstones,6,25-36,Home
+92,2023-01-20,General Medicine,Pneumonia,4,0-12,Home
+93,2023-06-10,Pediatrics,Minor Trauma,7,0-12,Transferred to Rehab
+94,2023-07-17,General Medicine,Diabetes Complications,9,37-48,Transferred to Rehab
+95,2023-12-29,General Medicine,Chronic Obstructive Pulmonary Disease,7,49-60,Transferred to Rehab
+96,2023-07-06,General Medicine,Pneumonia,7,37-48,Home
+97,2023-11-16,General Medicine,Pneumonia,8,37-48,Home
+98,2023-09-17,General Medicine,Viral Gastroenteritis,2,25-36,Home
+99,2023-07-26,General Medicine,Viral Gastroenteritis,3,25-36,Home
+100,2023-08-04,Orthopedics,Fracture (Hip),9,61+,Transferred to Rehab
+101,2023-07-27,Orthopedics,Fracture (Hip),9,61+,Home
+102,2023-04-18,General Medicine,Chronic Obstructive Pulmonary Disease,7,49-60,Home
+103,2023-08-27,General Medicine,Diabetes Complications,9,37-48,Home
+104,2023-03-28,General Medicine,Kidney Stones,4,37-48,Home
+105,2023-02-17,ICU,Stroke,11,61+,Home
+106,2023-04-12,General Medicine,Viral Infections,4,13-24,Home
+107,2023-09-01,Orthopedics,Fracture,4,13-24,Home
+108,2023-11-19,General Medicine,Chronic Obstructive Pulmonary Disease,8,49-60,Home
+109,2023-09-11,General Medicine,Chronic Obstructive Pulmonary Disease,10,49-60,Home
+110,2023-02-24,General Medicine,Pneumonia,4,37-48,Home
+111,2023-01-26,General Medicine,Pneumonia,4,37-48,Home
+112,2023-03-10,General Medicine,Chronic Obstructive Pulmonary Disease,5,49-60,Home
+113,2023-08-15,General Medicine,Diabetes Complications,9,37-48,Home
+114,2023-03-23,ICU,Stroke,13,49-60,Home
+115,2023-05-07,Orthopedics,Fracture (Hip),14,61+,Home
+116,2023-05-21,Orthopedics,Fracture (Hip),14,61+,Transferred to Rehab
+117,2023-05-01,General Medicine,Pneumonia,8,37-48,Home
+118,2023-03-12,General Medicine,Gallstones,5,25-36,Home
+119,2023-12-28,Orthopedics,Fracture,7,13-24,Home
+120,2023-06-19,Orthopedics,Fracture,7,13-24,Transferred to Rehab
+121,2023-04-16,General Medicine,Heart Failure,9,49-60,Transferred to Rehab
+122,2023-10-22,General Medicine,Kidney Stones,7,37-48,Home
+123,2023-06-02,General Medicine,Kidney Stones,3,37-48,Home
+124,2023-09-07,General Medicine,Kidney Stones,7,37-48,Home
+125,2023-01-15,Orthopedics,Sports Injury,6,13-24,Home
+126,2023-08-28,General Medicine,Kidney Stones,6,37-48,Home
+127,2023-10-31,General Medicine,Viral Infections,2,13-24,Home
+128,2023-11-26,ICU,Stroke,7,49-60,Transferred to Rehab
+129,2023-01-26,General Medicine,Pneumonia,6,37-48,Home
+130,2023-08-21,General Medicine,Gallstones,5,25-36,Home
+131,2023-08-04,General Medicine,Gallstones,6,25-36,Home
+132,2023-10-04,General Medicine,Appendicitis,6,25-36,Home
+133,2023-11-30,General Medicine,Pneumonia,4,0-12,Home
+134,2023-01-11,Pediatrics,Asthma,3,0-12,Home
+135,2023-08-31,General Medicine,Chronic Obstructive Pulmonary Disease,6,49-60,Transferred to Rehab
+136,2023-12-25,ICU,Stroke,10,61+,Home
+137,2023-03-25,General Medicine,Gallstones,4,25-36,Home
+138,2023-10-22,General Medicine,Appendicitis,3,25-36,Home
+139,2023-02-08,Orthopedics,Fracture (Hip),13,61+,Transferred to Rehab
+140,2023-12-23,ICU,Stroke,10,49-60,Transferred to Rehab
+141,2023-10-17,General Medicine,Viral Gastroenteritis,4,25-36,Home
+142,2023-12-05,General Medicine,Pneumonia,7,0-12,Home
+143,2023-08-04,General Medicine,Appendicitis,5,25-36,Home
+144,2023-11-22,General Medicine,Pneumonia,6,37-48,Home
+145,2023-04-01,General Medicine,Diabetes Complications,6,37-48,Home
+146,2023-11-12,ICU,Alzheimer’s,20,61+,Transferred to Rehab
+147,2023-10-31,General Medicine,Heart Failure,9,49-60,Home
+148,2023-05-23,General Medicine,Gallstones,4,25-36,Home
+149,2023-06-22,General Medicine,Pneumonia,6,37-48,Home
+150,2023-09-07,General Medicine,Pneumonia,5,0-12,Home
+151,2023-05-24,Orthopedics,Sports Injury,5,13-24,Home
+152,2023-09-22,ICU,Stroke,11,49-60,Transferred to Rehab
+153,2023-09-08,Orthopedics,Fracture,5,13-24,Transferred to Rehab
+154,2023-11-27,General Medicine,Chronic Obstructive Pulmonary Disease,10,49-60,Home
+155,2023-02-17,Orthopedics,Fracture (Hip),14,61+,Transferred to Rehab
+156,2023-06-06,General Medicine,Appendicitis,6,25-36,Home
+157,2023-10-11,ICU,Alzheimer’s,15,61+,Transferred to Rehab
+158,2023-06-30,General Medicine,Heart Failure,9,49-60,Home
+159,2023-05-09,Orthopedics,Fracture (Hip),11,61+,Home
+160,2023-06-11,Orthopedics,Fracture,9,13-24,Home
+161,2023-04-09,Pediatrics,Minor Trauma,8,0-12,Home
+162,2023-10-29,General Medicine,Viral Infections,5,13-24,Home
+163,2023-04-10,ICU,Stroke,11,49-60,Transferred to Rehab
+164,2023-06-04,General Medicine,Appendicitis,5,25-36,Home
+165,2023-05-21,Pediatrics,Minor Trauma,8,0-12,Home
+166,2023-11-23,Pediatrics,Asthma,4,0-12,Home
+167,2023-08-29,General Medicine,Pneumonia,3,37-48,Home
+168,2023-01-27,General Medicine,Kidney Stones,5,37-48,Home
+169,2023-07-25,General Medicine,Gallstones,3,25-36,Home
+170,2023-03-19,General Medicine,Pneumonia,7,37-48,Home
+171,2023-05-08,General Medicine,Viral Infections,4,13-24,Home
+172,2023-11-07,Pediatrics,Minor Trauma,10,0-12,Transferred to Rehab
+173,2023-08-19,ICU,Stroke,10,49-60,Home
+174,2023-06-06,General Medicine,Kidney Stones,7,37-48,Home
+175,2023-04-17,ICU,Stroke,7,49-60,Transferred to Rehab
+176,2023-03-22,ICU,Stroke,11,61+,Transferred to Rehab
+177,2023-03-22,Orthopedics,Fracture,8,13-24,Home
+178,2023-05-30,General Medicine,Pneumonia,6,0-12,Home
+179,2023-12-26,Pediatrics,Asthma,4,0-12,Home
+180,2023-05-16,General Medicine,Pneumonia,8,37-48,Home
+181,2023-08-06,ICU,Alzheimer’s,20,61+,Transferred to Rehab
+182,2023-05-17,Pediatrics,Minor Trauma,5,0-12,Home
+183,2023-06-07,Orthopedics,Fracture,4,13-24,Home
+184,2023-03-05,ICU,Stroke,11,49-60,Home
+185,2023-05-20,General Medicine,Diabetes Complications,7,37-48,Home
+186,2023-02-11,ICU,Stroke,14,49-60,Home
+187,2023-11-06,General Medicine,Chronic Obstructive Pulmonary Disease,8,49-60,Home
+188,2023-12-12,General Medicine,Appendicitis,3,25-36,Home
+189,2023-10-23,ICU,Stroke,7,49-60,Home
+190,2023-05-23,Pediatrics,Asthma,5,0-12,Home
+191,2023-02-16,General Medicine,Viral Infections,5,13-24,Home
+192,2023-06-14,General Medicine,Kidney Stones,6,37-48,Home
+193,2023-07-30,ICU,Stroke,9,61+,Home
+194,2023-10-09,Orthopedics,Fracture (Hip),11,61+,Home
+195,2023-05-10,General Medicine,Pneumonia,3,0-12,Home
+196,2023-12-03,General Medicine,Appendicitis,6,25-36,Home
+197,2023-04-07,General Medicine,Heart Failure,9,49-60,Transferred to Rehab
+198,2023-11-17,General Medicine,Heart Failure,10,49-60,Home
+199,2023-10-09,General Medicine,Pneumonia,4,37-48,Home
+200,2023-03-04,Orthopedics,Sports Injury,6,13-24,Home
+201,2023-12-30,Pediatrics,Minor Trauma,8,0-12,Home
+202,2023-10-10,Orthopedics,Sports Injury,7,13-24,Home
+203,2023-08-25,General Medicine,Pneumonia,4,37-48,Home
+204,2023-09-13,Pediatrics,Minor Trauma,10,0-12,Home
+205,2023-09-05,Orthopedics,Fracture (Hip),11,61+,Home
+206,2023-07-16,General Medicine,Pneumonia,6,37-48,Home
+207,2023-05-22,General Medicine,Viral Infections,3,13-24,Home
+208,2023-01-02,General Medicine,Kidney Stones,7,37-48,Home
+209,2023-03-18,General Medicine,Viral Gastroenteritis,3,25-36,Home
+210,2023-06-20,General Medicine,Diabetes Complications,8,37-48,Home
+211,2023-06-14,ICU,Stroke,13,49-60,Home
+212,2023-04-30,General Medicine,Viral Infections,3,13-24,Home
+213,2023-12-28,General Medicine,Pneumonia,5,37-48,Home
+214,2023-01-19,General Medicine,Kidney Stones,4,37-48,Home
+215,2023-08-14,General Medicine,Viral Infections,4,13-24,Home
+216,2023-03-15,Pediatrics,Minor Trauma,7,0-12,Home
+217,2023-08-29,General Medicine,Diabetes Complications,6,37-48,Transferred to Rehab
+218,2023-06-18,General Medicine,Gallstones,6,25-36,Home
+219,2023-11-17,ICU,Alzheimer’s,16,61+,Transferred to Rehab
+220,2023-05-01,Orthopedics,Fracture (Hip),7,61+,Transferred to Rehab
+221,2023-02-16,ICU,Alzheimer’s,14,61+,Transferred to Rehab
+222,2023-08-16,General Medicine,Pneumonia,8,37-48,Home
+223,2023-01-24,General Medicine,Viral Infections,4,13-24,Home
+224,2023-07-11,General Medicine,Appendicitis,5,25-36,Home
+225,2023-10-17,General Medicine,Pneumonia,4,37-48,Home
+226,2023-02-10,ICU,Stroke,9,61+,Transferred to Rehab
+227,2023-09-12,General Medicine,Heart Failure,10,49-60,Transferred to Rehab
+228,2023-11-23,General Medicine,Chronic Obstructive Pulmonary Disease,6,49-60,Home
+229,2023-08-27,General Medicine,Gallstones,5,25-36,Home
+230,2023-02-07,General Medicine,Viral Gastroenteritis,4,25-36,Home
+231,2023-11-24,General Medicine,Kidney Stones,7,37-48,Home
+232,2023-06-04,General Medicine,Diabetes Complications,7,37-48,Home
+233,2023-05-02,Orthopedics,Sports Injury,6,13-24,Home
+234,2023-12-25,General Medicine,Diabetes Complications,7,37-48,Home
+235,2023-01-05,General Medicine,Appendicitis,6,25-36,Home
+236,2023-05-27,ICU,Stroke,7,49-60,Home
+237,2023-11-22,General Medicine,Viral Infections,4,13-24,Home
+238,2023-11-18,General Medicine,Viral Infections,4,13-24,Home
+239,2023-06-08,Pediatrics,Minor Trauma,9,0-12,Home
+240,2023-03-09,General Medicine,Pneumonia,7,37-48,Home
+241,2023-03-31,General Medicine,Pneumonia,5,0-12,Home
+242,2023-09-29,Orthopedics,Fracture,10,13-24,Transferred to Rehab
+243,2023-05-12,General Medicine,Heart Failure,12,49-60,Transferred to Rehab
+244,2023-08-28,General Medicine,Kidney Stones,5,37-48,Home
+245,2023-10-13,Pediatrics,Asthma,3,0-12,Home
+246,2023-05-16,General Medicine,Appendicitis,6,25-36,Home
+247,2023-12-11,General Medicine,Chronic Obstructive Pulmonary Disease,8,49-60,Home
+248,2023-11-23,ICU,Alzheimer’s,14,61+,Transferred to Rehab
+249,2023-01-13,General Medicine,Appendicitis,4,25-36,Home
+250,2023-11-28,ICU,Stroke,12,49-60,Transferred to Rehab
+251,2023-12-25,Pediatrics,Minor Trauma,10,0-12,Transferred to Rehab
+252,2023-03-13,General Medicine,Viral Gastroenteritis,3,25-36,Home
+253,2023-03-01,Pediatrics,Asthma,4,0-12,Home
+254,2023-08-21,Pediatrics,Asthma,3,0-12,Home
+255,2023-10-28,General Medicine,Viral Gastroenteritis,4,25-36,Home
+256,2023-12-02,ICU,Alzheimer’s,12,61+,Transferred to Rehab
+257,2023-05-24,General Medicine,Pneumonia,7,0-12,Home
+258,2023-08-16,Pediatrics,Minor Trauma,6,0-12,Home
+259,2023-12-18,General Medicine,Pneumonia,5,37-48,Home
+260,2023-02-01,General Medicine,Viral Gastroenteritis,4,25-36,Home
+261,2023-08-21,General Medicine,Kidney Stones,4,37-48,Home
+262,2023-01-26,Pediatrics,Minor Trauma,5,0-12,Home
+263,2023-02-05,General Medicine,Appendicitis,4,25-36,Home
+264,2023-04-30,General Medicine,Chronic Obstructive Pulmonary Disease,9,49-60,Transferred to Rehab
+265,2023-03-16,General Medicine,Appendicitis,3,25-36,Home
+266,2023-02-26,General Medicine,Viral Infections,4,13-24,Home
+267,2023-07-03,ICU,Stroke,9,61+,Transferred to Rehab
+268,2023-03-31,General Medicine,Viral Infections,4,13-24,Home
+269,2023-09-27,General Medicine,Appendicitis,4,25-36,Home
+270,2023-08-18,Pediatrics,Minor Trauma,4,0-12,Transferred to Rehab
+271,2023-08-20,General Medicine,Viral Gastroenteritis,4,25-36,Home
+272,2023-12-04,General Medicine,Chronic Obstructive Pulmonary Disease,9,49-60,Transferred to Rehab
+273,2023-02-01,General Medicine,Heart Failure,9,49-60,Transferred to Rehab
+274,2023-09-09,General Medicine,Kidney Stones,6,37-48,Home
+275,2023-06-14,Orthopedics,Fracture (Hip),8,61+,Transferred to Rehab
+276,2023-05-21,General Medicine,Chronic Obstructive Pulmonary Disease,5,49-60,Transferred to Rehab
+277,2023-11-02,ICU,Stroke,12,49-60,Home
+278,2023-02-20,General Medicine,Heart Failure,9,49-60,Home
+279,2023-08-20,ICU,Stroke,10,61+,Home
+280,2023-07-24,Orthopedics,Sports Injury,5,13-24,Home
+281,2023-08-07,General Medicine,Diabetes Complications,5,37-48,Home
+282,2023-03-20,General Medicine,Viral Gastroenteritis,3,25-36,Home
+283,2023-02-13,Orthopedics,Fracture (Hip),8,61+,Transferred to Rehab
+284,2023-03-08,General Medicine,Pneumonia,3,0-12,Home
+285,2023-12-10,General Medicine,Chronic Obstructive Pulmonary Disease,9,49-60,Home
+286,2023-01-27,General Medicine,Pneumonia,5,0-12,Home
+287,2023-02-23,General Medicine,Viral Gastroenteritis,3,25-36,Home
+288,2023-12-03,ICU,Stroke,10,49-60,Transferred to Rehab
+289,2023-10-12,General Medicine,Pneumonia,3,37-48,Home
+290,2023-08-08,General Medicine,Appendicitis,5,25-36,Home
+291,2023-01-15,ICU,Stroke,7,49-60,Home
+292,2023-06-29,Orthopedics,Sports Injury,5,13-24,Home
+293,2023-02-05,Pediatrics,Asthma,3,0-12,Home
+294,2023-09-29,General Medicine,Viral Infections,2,13-24,Home
+295,2023-06-24,Orthopedics,Sports Injury,6,13-24,Home
+296,2023-10-18,Orthopedics,Sports Injury,5,13-24,Home
+297,2023-03-22,General Medicine,Chronic Obstructive Pulmonary Disease,5,49-60,Transferred to Rehab
+298,2023-05-20,General Medicine,Chronic Obstructive Pulmonary Disease,10,49-60,Transferred to Rehab
+299,2023-11-07,General Medicine,Diabetes Complications,8,37-48,Home
+300,2023-09-20,General Medicine,Kidney Stones,5,37-48,Home
+301,2023-05-26,General Medicine,Pneumonia,6,0-12,Home
+302,2023-09-27,ICU,Alzheimer’s,19,61+,Transferred to Rehab
+303,2023-07-22,Orthopedics,Fracture (Hip),7,61+,Transferred to Rehab
+304,2023-06-04,General Medicine,Chronic Obstructive Pulmonary Disease,5,49-60,Transferred to Rehab
+305,2023-05-29,Orthopedics,Fracture,10,13-24,Transferred to Rehab
+306,2023-08-09,General Medicine,Appendicitis,3,25-36,Home
+307,2023-09-14,Orthopedics,Fracture,7,13-24,Home
+308,2023-07-23,ICU,Stroke,12,49-60,Transferred to Rehab
+309,2023-08-24,ICU,Stroke,13,61+,Transferred to Rehab
+310,2023-10-21,General Medicine,Pneumonia,7,0-12,Home
+311,2023-05-29,General Medicine,Diabetes Complications,10,37-48,Home
+312,2023-03-29,General Medicine,Pneumonia,3,0-12,Home
+313,2023-02-15,General Medicine,Heart Failure,12,49-60,Home
+314,2023-10-29,General Medicine,Pneumonia,4,37-48,Home
+315,2023-06-08,General Medicine,Diabetes Complications,5,37-48,Home
+316,2023-03-28,Orthopedics,Fracture (Hip),10,61+,Home
+317,2023-09-29,Pediatrics,Minor Trauma,9,0-12,Home
+318,2023-11-27,General Medicine,Chronic Obstructive Pulmonary Disease,7,49-60,Home
+319,2023-05-12,Orthopedics,Fracture,4,13-24,Home
+320,2023-12-02,Orthopedics,Fracture,8,13-24,Home
+321,2023-10-16,Pediatrics,Asthma,5,0-12,Home
+322,2023-11-18,General Medicine,Heart Failure,11,49-60,Home
+323,2023-08-29,General Medicine,Appendicitis,6,25-36,Home
+324,2023-10-30,General Medicine,Diabetes Complications,7,37-48,Home
+325,2023-06-08,General Medicine,Pneumonia,7,0-12,Home
+326,2023-07-08,General Medicine,Kidney Stones,3,37-48,Home
+327,2023-08-25,General Medicine,Appendicitis,3,25-36,Home
+328,2023-10-20,ICU,Stroke,7,49-60,Home
+329,2023-09-14,ICU,Stroke,12,61+,Home
+330,2023-06-25,Orthopedics,Fracture,7,13-24,Home
+331,2023-05-07,ICU,Stroke,9,61+,Transferred to Rehab
+332,2023-07-06,Orthopedics,Fracture (Hip),14,61+,Transferred to Rehab
+333,2023-06-23,General Medicine,Gallstones,6,25-36,Home
+334,2023-02-03,ICU,Alzheimer’s,10,61+,Transferred to Rehab
+335,2023-05-10,General Medicine,Appendicitis,6,25-36,Home
+336,2023-06-20,ICU,Alzheimer’s,19,61+,Transferred to Rehab
+337,2023-06-29,Pediatrics,Minor Trauma,9,0-12,Home
+338,2023-03-08,General Medicine,Viral Gastroenteritis,4,25-36,Home
+339,2023-10-14,ICU,Stroke,8,49-60,Home
+340,2023-12-10,General Medicine,Diabetes Complications,7,37-48,Transferred to Rehab
+341,2023-11-27,ICU,Alzheimer’s,20,61+,Transferred to Rehab
+342,2023-07-05,Orthopedics,Fracture (Hip),12,61+,Transferred to Rehab
+343,2023-09-06,General Medicine,Appendicitis,4,25-36,Home
+344,2023-02-09,Orthopedics,Fracture,5,13-24,Home
+345,2023-11-13,General Medicine,Appendicitis,3,25-36,Home
+346,2023-03-25,General Medicine,Viral Infections,5,13-24,Home
+347,2023-01-23,General Medicine,Viral Infections,3,13-24,Home
+348,2023-11-09,General Medicine,Kidney Stones,4,37-48,Home
+349,2023-10-01,General Medicine,Viral Gastroenteritis,3,25-36,Home
+350,2023-07-08,Orthopedics,Sports Injury,6,13-24,Home
+351,2023-05-25,ICU,Alzheimer’s,17,61+,Transferred to Rehab
+352,2023-03-24,General Medicine,Diabetes Complications,9,37-48,Home
+353,2023-01-27,General Medicine,Viral Infections,3,13-24,Home
+354,2023-12-31,Orthopedics,Fracture (Hip),12,61+,Transferred to Rehab
+355,2023-03-24,General Medicine,Chronic Obstructive Pulmonary Disease,7,49-60,Transferred to Rehab
+356,2023-02-16,General Medicine,Gallstones,4,25-36,Home
+357,2023-08-01,Orthopedics,Sports Injury,5,13-24,Home
+358,2023-05-01,General Medicine,Pneumonia,7,0-12,Home
+359,2023-01-15,General Medicine,Pneumonia,5,37-48,Home
+360,2023-03-12,General Medicine,Appendicitis,5,25-36,Home
+361,2023-12-28,General Medicine,Pneumonia,6,0-12,Home
+362,2023-02-10,General Medicine,Kidney Stones,7,37-48,Home
+363,2023-10-08,General Medicine,Pneumonia,4,0-12,Home
+364,2023-02-26,ICU,Alzheimer’s,18,61+,Transferred to Rehab
+365,2023-01-25,General Medicine,Appendicitis,5,25-36,Home
+366,2023-02-02,Orthopedics,Sports Injury,7,13-24,Home
+367,2023-11-20,General Medicine,Pneumonia,7,0-12,Home
+368,2023-05-30,ICU,Stroke,10,49-60,Transferred to Rehab
+369,2023-05-04,General Medicine,Pneumonia,7,37-48,Home
+370,2023-09-26,General Medicine,Heart Failure,7,49-60,Transferred to Rehab
+371,2023-08-29,General Medicine,Appendicitis,3,25-36,Home
+372,2023-05-10,Pediatrics,Minor Trauma,7,0-12,Transferred to Rehab
+373,2023-06-26,ICU,Stroke,12,61+,Transferred to Rehab
+374,2023-03-10,General Medicine,Viral Infections,2,13-24,Home
+375,2023-11-26,General Medicine,Pneumonia,7,0-12,Home
+376,2023-11-20,General Medicine,Viral Infections,5,13-24,Home
+377,2023-01-19,Orthopedics,Fracture,4,13-24,Transferred to Rehab
+378,2023-01-22,General Medicine,Appendicitis,3,25-36,Home
+379,2023-05-10,General Medicine,Gallstones,6,25-36,Home
+380,2023-07-02,Pediatrics,Minor Trauma,5,0-12,Transferred to Rehab
+381,2023-03-05,Pediatrics,Minor Trauma,6,0-12,Transferred to Rehab
+382,2023-07-17,General Medicine,Gallstones,6,25-36,Home
+383,2023-07-08,General Medicine,Appendicitis,6,25-36,Home
+384,2023-08-06,General Medicine,Heart Failure,12,49-60,Transferred to Rehab
+385,2023-10-07,General Medicine,Pneumonia,7,0-12,Home
+386,2023-06-17,General Medicine,Gallstones,3,25-36,Home
+387,2023-11-05,Orthopedics,Fracture (Hip),11,61+,Home
+388,2023-06-29,Orthopedics,Fracture (Hip),9,61+,Home
+389,2023-11-11,General Medicine,Pneumonia,8,37-48,Home
+390,2023-12-10,General Medicine,Kidney Stones,3,37-48,Home
+391,2023-01-16,Orthopedics,Fracture (Hip),12,61+,Transferred to Rehab
+392,2023-03-06,General Medicine,Viral Infections,5,13-24,Home
+393,2023-07-16,Pediatrics,Asthma,4,0-12,Home
+394,2023-12-14,General Medicine,Chronic Obstructive Pulmonary Disease,9,49-60,Transferred to Rehab
+395,2023-02-09,General Medicine,Kidney Stones,5,37-48,Home
+396,2023-07-23,General Medicine,Chronic Obstructive Pulmonary Disease,9,49-60,Home
+397,2023-02-28,General Medicine,Viral Gastroenteritis,3,25-36,Home
+398,2023-09-23,Pediatrics,Minor Trauma,5,0-12,Transferred to Rehab
+399,2023-05-14,General Medicine,Diabetes Complications,5,37-48,Home
+400,2023-12-22,Orthopedics,Fracture (Hip),10,61+,Home
+401,2023-02-07,General Medicine,Pneumonia,3,37-48,Home
+402,2023-02-14,General Medicine,Pneumonia,8,37-48,Home
+403,2023-10-09,Orthopedics,Fracture (Hip),12,61+,Transferred to Rehab
+404,2023-12-31,General Medicine,Heart Failure,8,49-60,Transferred to Rehab
+405,2023-07-05,ICU,Alzheimer’s,20,61+,Transferred to Rehab
+406,2023-03-13,General Medicine,Chronic Obstructive Pulmonary Disease,5,49-60,Transferred to Rehab
+407,2023-10-11,Orthopedics,Sports Injury,3,13-24,Home
+408,2023-11-10,General Medicine,Heart Failure,9,49-60,Transferred to Rehab
+409,2023-09-03,Pediatrics,Asthma,4,0-12,Home
+410,2023-10-22,General Medicine,Heart Failure,12,49-60,Home
+411,2023-08-19,Pediatrics,Asthma,4,0-12,Home
+412,2023-03-07,General Medicine,Diabetes Complications,9,37-48,Home
+413,2023-08-10,ICU,Stroke,9,49-60,Transferred to Rehab
+414,2023-06-05,General Medicine,Chronic Obstructive Pulmonary Disease,5,49-60,Transferred to Rehab
+415,2023-06-27,Orthopedics,Fracture,6,13-24,Home
+416,2023-05-09,General Medicine,Heart Failure,12,49-60,Transferred to Rehab
+417,2023-11-17,General Medicine,Viral Infections,4,13-24,Home
+418,2023-09-15,General Medicine,Viral Gastroenteritis,4,25-36,Home
+419,2023-12-04,ICU,Stroke,9,61+,Transferred to Rehab
+420,2023-01-15,ICU,Stroke,12,49-60,Transferred to Rehab
+421,2023-10-20,Pediatrics,Asthma,4,0-12,Home
+422,2023-09-12,General Medicine,Diabetes Complications,10,37-48,Transferred to Rehab
+423,2023-09-05,ICU,Alzheimer’s,14,61+,Transferred to Rehab
+424,2023-08-21,General Medicine,Viral Infections,5,13-24,Home
+425,2023-08-14,Pediatrics,Minor Trauma,4,0-12,Home
+426,2023-06-24,General Medicine,Kidney Stones,6,37-48,Home
+427,2023-06-26,General Medicine,Chronic Obstructive Pulmonary Disease,7,49-60,Home
+428,2023-06-13,General Medicine,Pneumonia,5,37-48,Home
+429,2023-08-19,Orthopedics,Sports Injury,3,13-24,Home
+430,2023-05-29,Orthopedics,Fracture,4,13-24,Home
+431,2023-03-23,General Medicine,Diabetes Complications,8,37-48,Transferred to Rehab
+432,2023-04-08,General Medicine,Viral Gastroenteritis,4,25-36,Home
+433,2023-09-13,Orthopedics,Sports Injury,7,13-24,Home
+434,2023-07-21,General Medicine,Gallstones,3,25-36,Home
+435,2023-10-26,General Medicine,Heart Failure,7,49-60,Transferred to Rehab
+436,2023-09-11,General Medicine,Appendicitis,3,25-36,Home
+437,2023-10-02,ICU,Stroke,14,49-60,Home
+438,2023-05-16,Pediatrics,Asthma,5,0-12,Home
+439,2023-01-24,Orthopedics,Fracture (Hip),13,61+,Home
+440,2023-07-05,General Medicine,Pneumonia,7,37-48,Home
+441,2023-09-16,General Medicine,Heart Failure,6,49-60,Home
+442,2023-03-07,General Medicine,Diabetes Complications,7,37-48,Transferred to Rehab
+443,2023-10-13,General Medicine,Pneumonia,5,0-12,Home
+444,2023-09-14,General Medicine,Appendicitis,4,25-36,Home
+445,2023-06-20,Pediatrics,Asthma,2,0-12,Home
+446,2023-11-07,General Medicine,Diabetes Complications,8,37-48,Transferred to Rehab
+447,2023-03-25,General Medicine,Chronic Obstructive Pulmonary Disease,7,49-60,Home
+448,2023-10-31,General Medicine,Diabetes Complications,10,37-48,Home
+449,2023-12-29,General Medicine,Viral Gastroenteritis,4,25-36,Home
+450,2023-07-08,General Medicine,Heart Failure,9,49-60,Transferred to Rehab
+451,2023-10-26,General Medicine,Viral Gastroenteritis,2,25-36,Home
+452,2023-11-02,General Medicine,Viral Gastroenteritis,4,25-36,Home
+453,2023-01-27,General Medicine,Kidney Stones,7,37-48,Home
+454,2023-03-17,General Medicine,Heart Failure,7,49-60,Home
+455,2023-04-08,ICU,Stroke,7,61+,Transferred to Rehab
+456,2023-03-19,General Medicine,Pneumonia,5,0-12,Home
+457,2023-09-14,General Medicine,Diabetes Complications,6,37-48,Home
+458,2023-12-28,General Medicine,Heart Failure,12,49-60,Transferred to Rehab
+459,2023-12-06,General Medicine,Viral Infections,3,13-24,Home
+460,2023-03-30,General Medicine,Diabetes Complications,8,37-48,Home
+461,2023-12-13,General Medicine,Diabetes Complications,7,37-48,Home
+462,2023-11-09,ICU,Alzheimer’s,20,61+,Transferred to Rehab
+463,2023-10-13,General Medicine,Pneumonia,4,37-48,Home
+464,2023-12-27,General Medicine,Appendicitis,5,25-36,Home
+465,2023-09-03,General Medicine,Viral Infections,5,13-24,Home
+466,2023-05-28,General Medicine,Viral Gastroenteritis,4,25-36,Home
+467,2023-07-22,Pediatrics,Minor Trauma,9,0-12,Transferred to Rehab
+468,2023-05-28,General Medicine,Appendicitis,5,25-36,Home
+469,2023-12-02,ICU,Stroke,12,61+,Home
+470,2023-04-14,General Medicine,Viral Gastroenteritis,3,25-36,Home
+471,2023-03-12,General Medicine,Heart Failure,10,49-60,Home
+472,2023-05-05,Pediatrics,Minor Trauma,9,0-12,Home
+473,2023-11-23,Pediatrics,Minor Trauma,8,0-12,Home
+474,2023-06-19,Orthopedics,Fracture,4,13-24,Transferred to Rehab
+475,2023-01-03,Orthopedics,Fracture (Hip),8,61+,Transferred to Rehab
+476,2023-09-02,General Medicine,Chronic Obstructive Pulmonary Disease,8,49-60,Home
+477,2023-05-27,ICU,Stroke,11,61+,Home
+478,2023-10-01,ICU,Stroke,8,61+,Transferred to Rehab
+479,2023-08-02,ICU,Alzheimer’s,10,61+,Transferred to Rehab
+480,2023-09-11,Orthopedics,Fracture,10,13-24,Transferred to Rehab
+481,2023-01-05,General Medicine,Viral Infections,4,13-24,Home
+482,2023-06-21,General Medicine,Viral Gastroenteritis,4,25-36,Home
+483,2023-09-16,General Medicine,Gallstones,6,25-36,Home
+484,2023-06-19,General Medicine,Kidney Stones,4,37-48,Home
+485,2023-04-06,General Medicine,Viral Infections,5,13-24,Home
+486,2023-10-18,Pediatrics,Minor Trauma,6,0-12,Transferred to Rehab
+487,2023-08-07,ICU,Stroke,9,61+,Home
+488,2023-12-09,General Medicine,Heart Failure,6,49-60,Home
+489,2023-06-15,Pediatrics,Asthma,3,0-12,Home
+490,2023-05-01,Orthopedics,Fracture,6,13-24,Transferred to Rehab
+491,2023-10-26,General Medicine,Kidney Stones,5,37-48,Home
+492,2023-12-01,ICU,Alzheimer’s,10,61+,Transferred to Rehab
+493,2023-12-08,General Medicine,Viral Gastroenteritis,2,25-36,Home
+494,2023-07-27,General Medicine,Pneumonia,5,0-12,Home
+495,2023-11-24,ICU,Alzheimer’s,14,61+,Transferred to Rehab
+496,2023-03-10,General Medicine,Gallstones,4,25-36,Home
+497,2023-08-01,General Medicine,Pneumonia,6,37-48,Home
+498,2023-05-07,ICU,Alzheimer’s,17,61+,Transferred to Rehab
+499,2023-09-28,ICU,Alzheimer’s,11,61+,Transferred to Rehab
+500,2023-02-01,Orthopedics,Fracture (Hip),8,61+,Transferred to Rehab
